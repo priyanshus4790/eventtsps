@@ -1,6 +1,15 @@
 body {
     position: absolute;
     width: 1280px;
+    height: 720px;
+    left: 0px;
+    top: 716px;
+    
+}
+
+#eventsbg {
+    position: absolute;
+    width: 1280px;
     height: 721px;
     left: 0px;
     top: 1436px;
@@ -73,14 +82,6 @@ body {
     border-radius: 33px;
 }
 
-#latestevent {
-    position: absolute;
-    width: 580px;
-    height: 460px;
-    left: 652px;
-    top: 1607px;
-}
-
 #latestbox {
     position: absolute;
     width: 208px;
@@ -105,7 +106,7 @@ body {
     color: #FFFFFF;
 }
 
-#knowmore {
+#knowmorebox {
     position: absolute;
     width: 208px;
     height: 51px;
@@ -115,7 +116,17 @@ body {
     border-radius: 20px;
 }
 
-#buttonknowmore {
+#knowmorewhitebox {
+    position: absolute;
+    width: 553px;
+    height: 368px;
+    left: 679px;
+    top: 1629px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+#knowmore {
     position: absolute;
     width: 114px;
     height: 26px;
@@ -146,6 +157,7 @@ body {
     left: -172px;
     top: 1436px;
     background: rgba(46, 47, 54, 0.15);
+    border-radius: 50%;
 }
 
 #ellipsedown {
@@ -155,4 +167,131 @@ body {
     left: 931px;
     top: 1830px;
     background: rgba(250, 171, 79, 0.1);
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    #events {
+        position: absolute;
+        width: 414px;
+        height: 736px;
+        left: 0px;
+        top: 1472px;
+        background: #1C6B97;
+    }
+    #eventbk {
+        position: absolute;
+        width: 146px;
+        height: 56px;
+        left: 261px;
+        top: 1484px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: right;
+        color: rgba(255, 254, 254, 0.08);
+    }
+    #eventfr {
+        position: absolute;
+        width: 85px;
+        height: 33px;
+        left: 316px;
+        top: 1495px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 33px;
+        /* identical to box height */
+        text-align: right;
+        color: #FFFEFE;
+    }
+    #lineup {
+        position: absolute;
+        width: 297px;
+        height: 0px;
+        left: 13px;
+        top: 1512px;
+        border: 2px solid #FFFFFF;
+    }
+    #carddeck {
+        position: absolute;
+        width: 387.82px;
+        height: 279.84px;
+        left: 13px;
+        top: 1549px;
+    }
+    #frontrec {
+        position: absolute;
+        width: 366.53px;
+        height: 258.55px;
+        left: 34.29px;
+        top: 1570.29px;
+        background: #2E2F36;
+        border-radius: 33px;
+    }
+    #backrec {
+        position: absolute;
+        width: 366.53px;
+        height: 258.55px;
+        left: 13px;
+        top: 1549px;
+        background: #FAAB4F;
+        border-radius: 33px;
+    }
+    #latestbox {
+        position: absolute;
+        width: 139.14px;
+        height: 34.12px;
+        left: 13px;
+        top: 1856px;
+        background: #17407D;
+        border-radius: 20px;
+    }
+    #latesttext {
+        position: absolute;
+        width: 80.28px;
+        height: 17.39px;
+        left: 43px;
+        top: 1864px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+    #knowmorebox {
+        position: absolute;
+        width: 139.14px;
+        height: 34.12px;
+        left: 126px;
+        top: 2130px;
+        background: #2E2F36;
+        border-radius: 20px;
+    }
+    #knowmorewhitebox {
+        position: absolute;
+        width: 369.94px;
+        height: 246.18px;
+        left: 22px;
+        top: 1873px;
+        background: #FFFFFF;
+        border-radius: 10px;
+    }
+    #knowmore {
+        position: absolute;
+        width: 76.26px;
+        height: 17.39px;
+        left: 158px;
+        top: 2138px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
 }
