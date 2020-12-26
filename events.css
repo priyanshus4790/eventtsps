@@ -1,0 +1,150 @@
+
+#eventbk {
+    position: absolute;
+    width: 441px;
+    height: 166px;
+    left: 832px;
+    top: 1441px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 144px;
+    line-height: 169px;
+    color: rgba(4, 4, 4, 0.05);
+}
+
+#eventfr {
+    position: absolute;
+    width: 220.95px;
+    height: 47.93px;
+    left: 1080px;
+    top: 1498px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    color: #EEEEEE;
+}
+
+#lineup {
+    position: absolute;
+    width: 974.12px;
+    height: 0px;
+    left: 74px;
+    top: 1529px;
+    border: 3px solid #EEEEEE;
+    transform: rotate(0.07deg);
+}
+
+#carddeck {
+    position: absolute;
+    width: 510px;
+    height: 368px;
+    left: 49px;
+    top: 1629px;
+}
+
+#frontrec {
+    position: absolute;
+    width: 482px;
+    height: 340px;
+    left: 77px;
+    top: 1657px;
+    background: #2E2F36;
+    border-radius: 33px;
+}
+
+#backrec {
+    position: absolute;
+    width: 482px;
+    height: 340px;
+    left: 49px;
+    top: 1629px;
+    background: #FAAB4F;
+    border-radius: 33px;
+}
+
+#latestevent {
+    position: absolute;
+    width: 580px;
+    height: 460px;
+    left: 652px;
+    top: 1607px;
+}
+
+#latestbox {
+    position: absolute;
+    width: 208px;
+    height: 51px;
+    left: 652px;
+    top: 1607px;
+    background: #17407D;
+    border-radius: 20px;
+}
+
+#latesttext {
+    position: absolute;
+    width: 120px;
+    height: 26px;
+    left: 696px;
+    top: 1620px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+#knowmore {
+    position: absolute;
+    width: 208px;
+    height: 51px;
+    left: 859px;
+    top: 2016px;
+    background: #2E2F36;
+    border-radius: 20px;
+}
+
+#buttonknowmore {
+    position: absolute;
+    width: 114px;
+    height: 26px;
+    left: 906px;
+    top: 2029px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+#linedown {
+    position: absolute;
+    width: 1061px;
+    height: 0px;
+    left: -540px;
+    top: 2064.48px;
+    border: 3px solid #EEEEEE;
+    transform: rotate(0.14deg);
+}
+
+#ellipseup {
+    position: absolute;
+    width: 420.71px;
+    height: 407.51px;
+    left: -172px;
+    top: 1436px;
+    background: rgba(46, 47, 54, 0.15);
+}
+
+#ellipsedown {
+    position: absolute;
+    width: 544px;
+    height: 535px;
+    left: 931px;
+    top: 1830px;
+    background: rgba(250, 171, 79, 0.1);
+}
